@@ -1,0 +1,23 @@
+= Assignment: Broken tags
+
+== Data
+
+In folder `data`, there are 3 RGB JPEG images of different tags models.
+
+Each tag has a serial number printed on it as text or 1D barcode or both.
+
+== Your task
+
+Write a program that given a tag image will do following:
+
+* Detect where a tag is placed in the image.
+* Read *serial number* from the detected tag as text. You should try to read both printed text and 1D barcode.
+* Detect if the *belt holder* on the tag is actually broken.
+
+Describe preconditions that need to be satisfied for your program to work correctly.
+
+For example:
+
+* tag needs to be placed on high-contrast background
+* all tags need to have the same orientation
+* ...
